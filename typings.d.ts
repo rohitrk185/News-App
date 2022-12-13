@@ -20,7 +20,7 @@ type Pagination = {
 
 type NewsResponse = {
     pagination: Pagination;
-    data: DataEntry[];
+    data: Article[];
 }
 
 type Category = 

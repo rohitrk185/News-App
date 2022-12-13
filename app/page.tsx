@@ -5,7 +5,9 @@ import { fetchNews } from '../lib/fetchNews';
 
 async function page() {
 	// fetch the news data
+	// console.log(categories.join(','));
 	const news: NewsResponse = await fetchNews(categories.join(','));
+	console.log(news);
 
 	return (
 		<div>
