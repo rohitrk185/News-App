@@ -15,7 +15,7 @@ function DarkModeButton() {
         return null;
     }
 
-    const currentTheme = theme === 'system' ? systemTheme : theme;
+    const currentTheme = theme;
 
     return (
         <div>
