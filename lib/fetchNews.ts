@@ -58,6 +58,7 @@ export const fetchNews = async (
             }
         })
     });
+    // console.log(res.data.myQuery);
     
     const newsResponse = await res.json();
     
