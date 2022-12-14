@@ -7,8 +7,8 @@ import response from '../response.json'
 async function page() {
 	// fetch the news data
 	// console.log(categories.join(','));
-	const news: NewsResponse = (response) || await fetchNews(categories.join(','));
-	console.log(news);
+	const news: NewsResponse = await fetchNews(categories.join(','));
+	// console.log(news);
 
 
 	return (
